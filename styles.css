@@ -11,7 +11,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
 
-    padding: 10px 50px;
+    padding: 10px 100px;
 
     display: flex;
     justify-content: space-between;
@@ -47,6 +47,47 @@ a:visited {
     color: #E5E7EB;
 }
 
-.section-one{
+.section-one {
+    background-color: #1F2937;
+    padding: 75px 150px;
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    border: none;
+
+    padding: 5px 20px;
+    border-radius: 5px;
+
+    align-self: flex-start;
 
 }
+
+.resize-one{
+    width:400px;
+    height: auto;
+}
+
