@@ -3,6 +3,8 @@
 body {
     margin: 0px;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -24,6 +26,9 @@ ul {
     padding: 0px;
 
     list-style: none;
+    
+    display: flex;
+    align-items: center;
 }
 
 a {
@@ -40,4 +45,8 @@ a:visited {
     gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.section-one{
+
 }
