@@ -113,6 +113,7 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    flex: none;
 }
 
 .information-container {
@@ -157,4 +158,38 @@ p {
     align-self: flex-end;
     padding-right: 50px;
     font-weight: 700;
+}
+
+.section-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 100px 200px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+
+    color: #F9FAF8;
+}
+
+.modal {
+    display: flex;
+    flex: auto;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.modal-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    font-size: 24px;
+}
+
+.modal-button {
+    border: 2px solid white;
+    flex: none;
+    align-self:center;
 }
